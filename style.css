@@ -24,20 +24,36 @@
     border-radius: 10px;
 }
 .cat1{
-    background-image: linear-gradient();
-    background-color: orange;
+    background-image: linear-gradient(90deg, #FF9C35 0.00%, #FFD019 100.00%);
 }
 .cat2{
-    background-image: linear-gradient();
-    background-color: #FF136F;
+    background-image: linear-gradient(90deg, #FF589B 0.00%, #FF136F 100% );
 }
 .cat3{
-    background-image: linear-gradient();
-    background-color: firebrick;
+    background-image: linear-gradient(90deg,#4289FF 0.00% , #3F07F8 100.00% );
 }
 .catagories h1{
     color: white;
 }
 .catagories img{
     width: 120px;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 10px;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+#Contact-us{
+    height: 300px;
+}
+#Contact-us h6{
+    color: gray;
+}
+footer{
+    text-align: center;
+    color: lightgray;
 }
